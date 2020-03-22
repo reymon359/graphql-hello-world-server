@@ -38,4 +38,4 @@ const resolvers = {
 // Set up the server with ApolloServer
 const server = new ApolloServer({typeDefs, resolvers});
 server.listen({port: 9000})
-  .then(({url}) => console.log(`Server running at ${url}`);
+  .then(({url}) => console.log(`Server running at ${url}`));

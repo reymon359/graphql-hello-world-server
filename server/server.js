@@ -27,3 +27,11 @@ const typeDefs = gql`
     }
 */
 
+// Resolver function to return the data. 
+// It has to match our type definitions
+const resolvers = {
+  Query: {
+    greeting: () => 'Hello GraphQL world!👋'
+  }
+}
+

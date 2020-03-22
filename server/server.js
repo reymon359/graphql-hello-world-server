@@ -4,6 +4,10 @@ const {ApolloServer, gql} = require('apollo-server'); // Tag function to parse t
 // GraphQL Schema. 
 // It describes what our API can do
 const typeDefs = gql`
+  schema {
+    query: Query
+  }
+
   type Query {
     greeting: String
   }

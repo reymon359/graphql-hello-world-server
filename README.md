@@ -1,6 +1,7 @@
 # GraphQL Hello World👋 Server 
 A simple graphql client-server project to understand how graphql works
 
+I wrote a **post explaining the process** to help understand the project. [Go have a look at it!](https://medium.com/guidesmiths-dev/graphql-hello-world-server-852b14537790)
 
 ## Install this project
 
